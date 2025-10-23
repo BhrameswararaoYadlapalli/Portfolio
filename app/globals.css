@@ -9,7 +9,7 @@
 
 @layer components {
   .nav-link {
-    @apply relative font-semibold text-white cursor-pointer text-[17px] w-fit md:block;
+    @apply relative font-semibold text-white cursor-pointer text-[17px] w-fit hidden md:block
   }
 
   .nav-link::after {
@@ -23,7 +23,7 @@
     @apply scale-x-100;
   }
   .nav-link-mobile {
-    @apply relative mb-[2rem] font-semibold text-white cursor-pointer text-[27px] w-fit block md:hidden;
+    @apply relative mb-[2rem] font-semibold text-white cursor-pointer text-[27px] w-fit block md:hidden
   }
   .nav-link-mobile::after {
     @apply block absolute h-[3px] bg-yellow-400 w-full scale-x-0 origin-center transition-transform duration-300;
